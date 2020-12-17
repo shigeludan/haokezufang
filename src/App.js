@@ -14,14 +14,7 @@ export default function App() {
         {/* <Button type="primary">点我</Button> */}
 
         {/* 导航 */}
-        <ul>
-          <li>
-          <Link to='/home'>首页</Link>
-          </li>
-          <li>
-          <Link to='/citylist'>城市选择页面</Link>
-          </li>
-        </ul>
+
 
         {/* 路径和页面组件的关系 */}
         <Route path="/home" component={Home} />
